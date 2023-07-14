@@ -1,17 +1,162 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru  ">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="keywords" content="..." />
-    <meta name="description" content="..." />
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico" />
     <link rel="author" href="humans.txt" />
-    <title>Data.rar</title>
 
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
+    <!-- Начало: Данный блок удалять нельзя -->
+    <div class="maketforfigma">
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="images/icon/logo.png" alt="Maket for figma" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего
+          телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank"
+            >FIGMA | Макеты для верстки</a
+          >
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank"
+            >Telegram-бота</a
+          >
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
+    </div>
+    <!-- Конец -->
+    <div class="main">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap">
+            <div class="header__logo">
+              <a class="header__logo-link" href="#"
+                ><img src="images/icon/logo.svg" alt="Logo" />data.rar</a
+              >
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Программа курса</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Преимущества</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Цена</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Отзывы</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section
+        class="hero"
+        style="background-image: url(images/bg/bg_hero.svg)"
+      >
+        <div class="container">
+          <div class="hero__wrap">
+            <h1 class="title title__h1 hero__title">
+              Как за 12 часов стать начинающим data scientist и научиться
+              зарабатывать на своих навыках?
+            </h1>
+            <p class="hero__text">
+              И получить высокооплачиваемую работу в самой быстрорастущей
+              отрасли в мире
+            </p>
+            <div class="hero__info-box">
+              <div class="hero__info">
+                <img
+                  class="hero__info-img"
+                  src="images/icon/cash.svg"
+                  alt="Money"
+                />
+                Начните зарабатывать на следующий день после курса
+              </div>
+              <div class="hero__info">
+                <img
+                  class="hero__info-img"
+                  src="images/icon/search.svg"
+                  alt="Money"
+                />
+                Поможем найти работу в офисе и на фрилансе
+              </div>
+              <div class="hero__info">
+                <img
+                  class="hero__info-img"
+                  src="images/icon/time.svg"
+                  alt="Money"
+                />
+                Сэкономьте своё время — за день получите то же, что на
+                трёхмесячном курсе обучения
+              </div>
+            </div>
+            <p class="hero__text-time">Начало курса: 11 мая, 9:00 – 21:00</p>
+            <a class="hero__btn button" href="#">Забронировать</a>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <div class="info__wrap">
+            <h3 class="title title__h3 info__title">
+              Как Вы считаете, сможете ли Вы стать data scientist за 12 часов,
+              освоив эти 6 навыков?
+            </h3>
+            <div class="info__trait-box">
+              <div class="info__trait">
+                <img src="images/icon/date-01.svg" alt="Данные" />
+                Обработка данных и извлечение признаков
+              </div>
+              <div class="info__trait">
+                <img src="images/icon/date-02.svg" alt="Классификация" />
+                Классификация
+              </div>
+              <div class="info__trait">
+                <img src="images/icon/date-03.svg" alt="Кластеризация" />
+                Кластеризация
+              </div>
+              <div class="info__trait">
+                <img src="images/icon/date-04.svg" alt="Модели" />
+                Построение регрессионных моделей
+              </div>
+              <div class="info__trait">
+                <img src="images/icon/date-05.svg" alt="Ранжирование" />
+                Ранжирование
+              </div>
+              <div class="info__trait">
+                <img
+                  src="images/icon/date-06.svg"
+                  alt="Сокращение размерности"
+                />
+                Сокращение размерности
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="info__text">Вакансии data scientist</p>
+      </section>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>
 </html>
