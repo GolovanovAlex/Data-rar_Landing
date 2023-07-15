@@ -1,5 +1,5 @@
 // ---- ---- fonts ---- ---- //
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 // ---- ---- reset ---- ---- //
 @import 'swiper-bundle.min.scss';
 @import 'normalize.scss';
@@ -7,23 +7,7 @@
 @import 'base.scss';
 @import 'global.scss';
 // ---- ---- hero ---- ---- //
-.header {
-  &__top {
-    background-color: $color_bg_light;
-    text-align: center;
-    padding: 10px 0;
-  }
-  &__top-text {
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: $color_t_accent;
-  }
-  &__bottom {
-    background-color: $color_t_light;
-  }
-}
+
 .header {
   &__wrap {
   }
@@ -37,24 +21,6 @@
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 170px 0;
-  min-height: calc(100vh - 130px - 130px);
-  &__wrap {
-    margin-left: 385px;
-  }
-  &__text {
-    max-width: 250px;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  &__title {
-    max-width: 250px;
-    margin-bottom: 57px;
-  }
-}
-.hero {
   &__wrap {
   }
   &__title {
