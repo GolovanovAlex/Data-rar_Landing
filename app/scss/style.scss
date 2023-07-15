@@ -24,6 +24,14 @@
     background-color: $color_t_light;
   }
 }
+.header {
+  &__wrap {
+  }
+  &__logo {
+  }
+  &__logo-link {
+  }
+}
 // ---- ---- hero ---- ---- //
 .hero {
   background-position: center bottom;
@@ -46,65 +54,184 @@
     margin-bottom: 57px;
   }
 }
-// ---- ---- quotes ---- ---- //
-.quotes {
-  background-color: $color_bg;
+.hero {
+  &__wrap {
+  }
+  &__title {
+  }
   &__text {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 42px;
-    margin-bottom: 40px;
+  }
+  &__info-box {
+  }
+  &__info {
+  }
+  &__info-img {
+  }
+  &__text-time {
+  }
+  &__btn {
+  }
+}
+// ---- ---- info ---- ---- //
+.info {
+  &__wrap {
+  }
+  &__title {
+  }
+  &__trait-box {
+  }
+  &__trait {
+  }
+  &__text {
+  }
+  &__swiper-box {
+  }
+  &__btn {
+  }
+}
+// ---- ---- system ---- ---- //
+.system {
+  &__title {
+  }
+  &__text {
   }
   &__box {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-bottom: 45px;
+  }
+  &__img-box {
   }
 }
-// ---- ---- welcome ---- ---- //
-.welcome {
-  padding-top: 120px;
-  padding-bottom: 114px;
-  background-color: $color_t_light;
+// ---- ---- data ---- ---- //
+.data {
+  &__box {
+  }
+  &__list {
+  }
+  &__item {
+  }
+  &__text {
+  }
+  &__img-box {
+  }
+  &__info-box {
+  }
+  &__info-item {
+  }
+  &__info-title {
+  }
+  &__info-text {
+  }
+  &__certificate-box {
+  }
+  &__certificate-info {
+  }
+  &__certificate-title {
+  }
+  &__certificate-text {
+  }
+  &__btn {
+  }
+}
+// ---- ---- vs ---- ---- //
+.vs {
+  &__title {
+  }
+  &__title--grey {
+  }
+  &__title--pink {
+  }
+  &__title--orange {
+  }
+  &__box {
+  }
+  &__minus {
+  }
+  &__item {
+  }
+  &__plus {
+  }
+  &__item-plus {
+  }
+  &__price-box {
+  }
+  &__price-anoter {
+  }
+  &__price-number {
+  }
+  &__price-number--another {
+  }
+  &__price-data {
+  }
+  &__price-number--data {
+  }
+  &__form-box {
+  }
+  &__form {
+  }
+  &__form-title {
+  }
+  &__form-text {
+  }
+  &__form-name {
+  }
+  &__form-tel {
+  }
+  &__form-btn {
+  }
+  &__sale-box {
+  }
+  &__sale-item {
+  }
+  &__sale-top {
+  }
+  &__number {
+  }
+  &__sale-text {
+  }
+  &__sale-btn {
+  }
+}
+// ---- ---- curce ---- ---- //
+.curse {
+  &__title {
+  }
+  &__title-text {
+  }
   &__wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 135px;
   }
-  &__text-title {
-    max-width: 400px;
-    font-size: 41px;
-    font-weight: 700;
-    line-height: 46px;
-    letter-spacing: 1.25px;
-    text-align: center;
+  &__item {
   }
-  &__text {
-    max-width: 650px;
-    font-size: 16px;
-    line-height: 26px;
-    color: $color_t_dark;
+  &__item-top {
+  }
+  &__bottom {
+  }
+  &__item--finish {
+  }
+  &__item-title {
+  }
+  &__item-text {
   }
 }
-// ---- ---- designed ---- ---- //
-.designed {
-  padding-top: 75px;
-  background-color: $color_bg_slider;
-  &__text {
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 48px;
-    text-align: center;
-    margin-bottom: 52px;
+// ---- ---- about ---- ---- //
+.about {
+  &__title {
   }
-  &__swiper {
-    padding-top: 100px;
-    padding-bottom: 140px;
+  &__title-text {
+  }
+  &__text {
+  }
+  &__box {
+  }
+  &__item {
+  }
+  &__item-top {
+  }
+  &__name {
+  }
+  &__lastname {
+  }
+  &__item-bottom {
+  }
+  &__item-text {
   }
 }
 // ---- ---- swiper ---- ---- //
@@ -153,111 +280,47 @@
   bottom: auto;
   z-index: 20;
 }
-// ---- ---- shop ---- ---- //
-.shop {
-  padding-top: 73px;
-  background-color: $color_t_light;
-  text-align: center;
-  &__title-text {
-    max-width: 475px;
-    font-size: 33px;
-    font-weight: 700;
-    line-height: 55px;
-    letter-spacing: 1.2px;
-    margin: 0 auto 18px;
-  }
-  &__text {
-    max-width: 450px;
-    font-size: 18px;
-    line-height: 29px;
-    margin: 0 auto;
-    color: $color_t_dark;
-  }
+// ---- ---- form ---- ---- //
+.form {
   &__box {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 60px;
-    padding-bottom: 100px;
   }
-  &__item {
-    max-width: 280px;
-    &:last-child {
-      .shop__item-img {
-        margin-bottom: 5px;
-      }
-    }
-    &:nth-child(2) {
-      .shop__item-img {
-        margin-bottom: 13px;
-      }
-    }
+  &__form {
   }
-  &__item-img {
-    margin-bottom: 35px;
+  &__title {
   }
-  &__item-title {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+  &__wrap {
   }
-  &__price {
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.1px;
-    color: $color_t_info;
-    margin-bottom: 6px;
+  &__social {
   }
-  &__item-text {
-    max-width: 180px;
-    font-size: 13px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: $color_t_info;
-    margin: 0 auto;
+  &__link {
   }
 }
-// ---- ---- follow ---- ---- //
-.follow {
-  background-color: $color_bg;
-  .container {
-    max-width: 100%;
-    padding: 0;
+// ---- ---- review ---- ---- //
+.review {
+  &__title {
   }
-  &__box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+  &__item {
   }
-  &__img {
-    display: block;
-  }
-  &__text-box {
-    max-width: 450px;
-    text-align: center;
-  }
-  &__hashtag {
-    font-size: 11px;
-    line-height: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 33px;
+  &__img-box {
   }
   &__text {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 46px;
-    letter-spacing: 1px;
-    margin-bottom: 61px;
   }
-  &__button {
-    line-height: 12px;
-    letter-spacing: 0.5px;
-    color: $color_t_dark;
-    background-color: $color_white;
+  &__name {
+  }
+}
+// ---- ---- contact ---- ---- //
+.contact {
+  &__map {
+  }
+  &__info {
+  }
+  &__title {
+  }
+  &__list {
+  }
+  &__item {
+  }
+  &__link {
   }
 }
 // ---- ---- media ---- ---- //
