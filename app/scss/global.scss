@@ -4,17 +4,17 @@ $color_t_main: #000000;
 $color_t_accent: #c81f56;
 $color_t_dark: #020202;
 $color_bg_button: #feb447;
+$color_b_grey: #f0f0f0;
 
-$color_t_grey: #6e6259;
-$color_t_info: #6e635a;
-$color_t_footer: rgba(245, 241, 233, 0.6);
-$color_t_light: #fcfaf6;
-$color_t_footer-copy: rgba(252, 250, 246, 0.5);
-$color_bg_light: #f0eedd;
-$color_bg: #f5f1e9;
-$color_bg_dark: #6c674d;
-$color_bg_accent: #807c62;
-$color_bg_slider: #fbf6ea;
+// $color_t_info: #6e635a;
+// $color_t_footer: rgba(245, 241, 233, 0.6);
+// $color_t_light: #fcfaf6;
+// $color_t_footer-copy: rgba(252, 250, 246, 0.5);
+// $color_bg_light: #f0eedd;
+// $color_bg: #f5f1e9;
+// $color_bg_dark: #6c674d;
+// $color_bg_accent: #807c62;
+// $color_bg_slider: #fbf6ea;
 // ---- ---- main ---- ---- //
 html {
   width: 100%;
@@ -30,9 +30,15 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: $color_t_main;
+  // Regular 400
+  // Medium 500
+  // SemiBold 600
+  // Bold 700
+  // ExtraBold 800
+  // Black 900
 }
 .container {
-  max-width: 1460px;
+  max-width: 1210px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -46,15 +52,25 @@ body {
   }
 }
 // ---- ---- menu ---- ---- //
-.nav {
-}
-
 .menu {
   &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
   }
   &__item {
+    font-size: 15px;
+    font-weight: 500;
   }
   &__link {
+    padding-bottom: 7px;
+    border-bottom: 1px solid $color_b_grey;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $color_t_accent;
+      border-bottom: 1px solid $color_bg_button;
+    }
   }
 }
 // ---- ---- btn ---- ---- //
