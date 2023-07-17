@@ -26,10 +26,15 @@
     span {
       padding-left: 16px;
     }
+    path {
+      transition: all 0.3s ease;
+    }
     &:hover {
-      color: $color_bg_button;
+      color: $color_bg_accent;
 
-      fill: #000000;
+      path {
+        fill: $color_bg_accent;
+      }
     }
   }
 }
