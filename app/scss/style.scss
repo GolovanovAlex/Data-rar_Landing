@@ -42,12 +42,19 @@
   background-repeat: no-repeat;
   min-height: calc(100vh - 80px);
   &__wrap {
+    color: $color_white;
   }
   &__title {
     padding-top: 73px;
     max-width: 925px;
+    margin-bottom: 12px;
   }
   &__text {
+    max-width: 675px;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.24px;
+    margin-bottom: 50px;
   }
   &__info-box {
   }
@@ -56,6 +63,12 @@
   &__info-img {
   }
   &__text-time {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: -0.48px;
+    text-shadow: 0px 4px 20px 0px rgba(200, 31, 86, 0.5);
+    margin-bottom: 65px;
   }
   &__btn {
   }

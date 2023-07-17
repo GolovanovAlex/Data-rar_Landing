@@ -79,6 +79,16 @@ body {
 }
 // ---- ---- btn ---- ---- //
 .button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color_t_main;
+  background-color: $color_bg_button;
+  border: 1px solid $color_bg_button;
+  padding: 13px;
 }
 // ---- ---- footer ---- ---- //
 .footer {
