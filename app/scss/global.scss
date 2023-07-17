@@ -44,6 +44,10 @@ body {
 // ---- ---- Title ---- ---- //
 .title {
   &__h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 59px;
+    letter-spacing: -0.48px;
   }
   &__h3 {
   }
@@ -61,6 +65,7 @@ body {
   &__item {
     font-size: 15px;
     font-weight: 500;
+    letter-spacing: -0.15px;
   }
   &__link {
     padding-bottom: 7px;

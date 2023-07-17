@@ -6,16 +6,13 @@
 @import 'myreset.scss';
 @import 'base.scss';
 @import 'global.scss';
-// ---- ---- hero ---- ---- //
-
+// ---- ---- header ---- ---- //
 .header {
   padding: 28px 0 27px;
   &__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  &__logo {
   }
   &__logo-link {
     display: flex;
@@ -43,9 +40,12 @@
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: calc(100vh - 80px);
   &__wrap {
   }
   &__title {
+    padding-top: 73px;
+    max-width: 925px;
   }
   &__text {
   }
