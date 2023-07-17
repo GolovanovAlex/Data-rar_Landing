@@ -57,10 +57,25 @@
     margin-bottom: 50px;
   }
   &__info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
   }
   &__info {
+    display: flex;
+    align-items: flex-start;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.16px;
+    &:last-child {
+      max-width: 367px;
+    }
   }
   &__info-img {
+    display: flex;
+    margin-right: 10px;
   }
   &__text-time {
     font-size: 48px;
