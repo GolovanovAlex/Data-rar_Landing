@@ -4,10 +4,10 @@ $color_t_main: #000000;
 $color_t_accent: #c81f56;
 $color_t_dark: #020202;
 $color_bg_button: #feb447;
-$color_b_grey: #f0f0f0;
 $color_bg_accent: #fe840e;
-// $color_t_footer: rgba(245, 241, 233, 0.6);
-// $color_t_light: #fcfaf6;
+$color_bg_light: #f06c46;
+$color_b_grey: #f0f0f0;
+// $color_t_light: #FEB447;
 // $color_t_footer-copy: rgba(252, 250, 246, 0.5);
 // $color_bg_light: #f0eedd;
 // $color_bg: #f5f1e9;
@@ -41,6 +41,11 @@ body {
   padding: 0 10px;
   margin: 0 auto;
 }
+.container-small {
+  max-width: 950px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 // ---- ---- Title ---- ---- //
 .title {
   &__h1 {
@@ -50,6 +55,10 @@ body {
     letter-spacing: -0.48px;
   }
   &__h3 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: -0.34px;
   }
   &__h4 {
   }
@@ -79,6 +88,7 @@ body {
 }
 // ---- ---- btn ---- ---- //
 .button {
+  min-width: 185px;
   font-size: 14px;
   font-weight: 600;
   line-height: 14px;
@@ -87,8 +97,15 @@ body {
   text-transform: uppercase;
   color: $color_t_main;
   background-color: $color_bg_button;
-  border: 1px solid $color_bg_button;
+  border: 2px solid $color_bg_button;
+  border-radius: 20px;
   padding: 13px;
+  transition: all 0.3s ease;
+  &:hover {
+    color: $color_white;
+    background-color: $color_bg_accent;
+    border: 2px solid $color_t_accent;
+  }
 }
 // ---- ---- footer ---- ---- //
 .footer {

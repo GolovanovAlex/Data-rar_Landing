@@ -10,6 +10,10 @@
     />
     <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico" />
     <link rel="author" href="humans.txt" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
     <title>FIGMA | Макеты для верстки — Верстка страницы</title>
     <link rel="stylesheet" href="css/style.min.css" />
@@ -128,7 +132,7 @@
         </div>
       </section>
       <section class="info">
-        <div class="container">
+        <div class="container-small">
           <div class="info__wrap">
             <h3 class="title title__h3 info__title">
               Как Вы считаете, сможете ли Вы стать data scientist за 12 часов,
@@ -136,38 +140,46 @@
             </h3>
             <div class="info__trait-box">
               <div class="info__trait">
+                <span class="info__number">01</span>
                 <img src="images/icon/data-01.svg" alt="Данные" />
-                Обработка данных и извлечение признаков
+                Обработка данных <br />и извлечение <br />признаков
               </div>
               <div class="info__trait">
+                <span class="info__number">02</span>
                 <img src="images/icon/data-02.svg" alt="Классификация" />
                 Классификация
               </div>
               <div class="info__trait">
+                <span class="info__number">03</span>
                 <img src="images/icon/data-03.svg" alt="Кластеризация" />
                 Кластеризация
               </div>
               <div class="info__trait">
+                <span class="info__number">04</span>
                 <img src="images/icon/data-04.svg" alt="Модели" />
-                Построение регрессионных моделей
+                Построение <br />
+                регрессионных <br />моделей
               </div>
               <div class="info__trait">
+                <span class="info__number">05</span>
                 <img src="images/icon/data-05.svg" alt="Ранжирование" />
                 Ранжирование
               </div>
               <div class="info__trait">
+                <span class="info__number">06</span>
                 <img
                   src="images/icon/data-06.svg"
                   alt="Сокращение размерности"
                 />
-                Сокращение размерности
+                Сокращение<br />
+                размерности
               </div>
             </div>
           </div>
         </div>
         <p class="info__text">Вакансии data scientist</p>
         <div class="info__swiper-box">
-          <div class="swiper">
+          <div class="swiper mySwiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -220,21 +232,23 @@
             <div class="swiper-button-next"></div>
           </div>
         </div>
-        <div class="container">
+        <div class="container-small">
           <a class="info__btn button" href="#">освоить эти 6 навыков</a>
         </div>
       </section>
       <section class="system">
         <div class="container">
-          <h3 class="title title__h3 system__title">
-            В этом году мы разработали систему интенсивного обучения, которая
-            позволит вам освоить все 6 навыков за 12 часов.
-          </h3>
-          <p class="system__text">
-            Плохая новость в том, что обычные и онлайн курсы по data science
-            растянуты на много недель, а их стоимость начинается от 30 тысяч
-            рублей <img src="images/icon/smile.png" alt="smile" />
-          </p>
+          <div class="container-small">
+            <h3 class="title title__h3 system__title">
+              В этом году мы разработали систему интенсивного обучения, которая
+              позволит вам освоить все 6 навыков за 12 часов.
+            </h3>
+            <p class="system__text">
+              Плохая новость в том, что обычные и онлайн курсы по data science
+              растянуты на много недель, а их стоимость начинается от 30 тысяч
+              рублей <img src="images/icon/smile.png" alt="smile" />
+            </p>
+          </div>
           <div class="system__box">
             <div class="system__img-box">
               <img src="images/content/book.png" alt="book" />
@@ -247,44 +261,55 @@
           </div>
         </div>
       </section>
-      <section class="data">
-        <div class="container">
-          <h3 class="title title__h3 system__title">
-            Поэтому мы решили сделать обучение удобным, доступным и выгодным для
-            каждого и упаковали знания <br />
+      <section
+        class="data"
+        style="background-image: url(images/bg/bg_data.svg)"
+      >
+        <div class="container-small">
+          <h3 class="title title__h3 data__title">
+            Поэтому мы решили сделать обучение <br />удобным, доступным и
+            выгодным для <br />каждого и упаковали знания <br />
             в интенсивный курс, который позволит Вам:
           </h3>
           <div class="data__box">
-            <img src="images/content/box.png" alt="box" />
+            <img class="data__img-big" src="images/content/box.png" alt="box" />
             <ul class="data__list">
-              <li class="data__item">Потратить минимум денег и времени</li>
               <li class="data__item">
+                <img src="images/icon/cash2.svg" alt="" /> Потратить минимум
+                денег и времени
+              </li>
+              <li class="data__item">
+                <img src="images/icon/case.svg" alt="" />
                 Научиться искать работу под новые навыки
               </li>
               <li class="data__item">
+                <img src="images/icon/date.svg" alt="" />
                 Начать зарабатывать на следующий день после курса
               </li>
             </ul>
           </div>
-          <div class="data__text">
-            На нашем курсе вы освоите все необходимые навыки за 12 часов
-            благодаря
+          <div class="title title__h3 data__title data__title--small">
+            <span class="data__big-text data__big-text--first">DATA</span>
+            <span class="data__title--small"
+              >На нашем курсе вы освоите все необходимые навыки за 12 часов
+              благодаря</span
+            >
           </div>
         </div>
         <div class="data__img-box">
           <img src="images/bg/data.png" alt="data" />
         </div>
-        <div class="container">
+        <div class="container-small">
           <div class="data__info-box">
             <div class="data__info-item">
-              <p class="data__info-title">Адаптации  для новичков</p>
+              <p class="data__info-title">Адаптации <br />для новичков</p>
               <p class="data__info-text">
-                Все курсы адаптированы под новичков, не имеющих опыта
-                программирования
+                Все курсы адаптированы под новичков,<br />
+                не имеющих опыта программирования
               </p>
             </div>
             <div class="data__info-item">
-              <p class="data__info-title">Ориентации  на практику</p>
+              <p class="data__info-title">Ориентации <br />на практику</p>
               <p class="data__info-text">
                 По окончании курса студенты станут самостоятельными
                 разработчиками
@@ -298,12 +323,17 @@
             </div>
           </div>
           <div class="data__certificate-box">
-            <img src="images/content/certificate.png" alt="Certificate  " />
+            <img
+              class="data__certificate-img"
+              src="images/content/certificate.png"
+              alt="Certificate  "
+            />
+            <span class="data__big-text data__big-text--second">science</span>
             <div class="data__certificate-info">
               <p class="data__certificate-title">И получите сертификат</p>
               <p class="data__certificate-text">
-                Добавьте его к своему резюме  и претендуйте на более престижную
-                должность
+                Добавьте его к своему резюме <br />и претендуйте на более
+                престижную должность
               </p>
               <a class="data__btn button" href="#">Забронировать</a>
             </div>
@@ -311,7 +341,7 @@
         </div>
       </section>
       <div class="vs">
-        <div class="container">
+        <div class="container-small">
           <p class="vs__title">
             <span class="vs__title vs__title--grey">Обычный курс</span>
             <span class="vs__title vs__title--pink">vs.</span>
@@ -370,18 +400,26 @@
           <div class="vs__price-box">
             <div class="vs__price-anoter">
               ОБЫЧНЫЙ КУРС
-              <span class="vs__price-number vs__price-number--another"
-                >46 000</span
-              ><span>руб.</span>
+              <span>
+                <span class="vs__price-number vs__price-number--another"
+                  >46 000</span
+                ><span class="vs__price-subnumber">руб.</span></span
+              >
             </div>
             <div class="vs__price-data">
               КУРС Data.rar
-              <span class="vs__price-number vs__price-number--data">14 990</span
-              ><span>руб.</span>
+              <span>
+                <span class="vs__price-number vs__price-number--data"
+                  >14 990</span
+                ><span class="vs__price-subnumber-data">руб.</span></span
+              >
             </div>
           </div>
         </div>
-        <div class="vs__form-box">
+        <div
+          class="vs__form-box container"
+          style="background-image: url(images/bg/bg_form.svg)"
+        >
           <form
             class="vs__form"
             action="
@@ -391,20 +429,23 @@
               Начало курса: 11 мая, 9:00 – 21:00
             </h3>
             <p class="vs__form-text">Подайте заявку сейчас!</p>
-            <input class="vs__form-name" type="text" />
-            <input class="vs__form-tel" type="tel" />
-            <button class="vs__form-btn button" type="submit">
-              Забронировать
-            </button>
+            <div class="vs__form-input-box">
+              <input class="vs__form-name" type="text" placeholder="имя" />
+              <input class="vs__form-tel" type="tel" placeholder="Телефон" />
+              <button class="vs__form-btn button" type="submit">
+                Забронировать
+              </button>
+            </div>
           </form>
         </div>
-        <div class="vs__sale-box">
+        <div class="vs__sale-box container">
           <div class="vs__sale-item">
             <div class="vs__sale-top">
               <img src="images/bg/man.svg" alt="man" />
-              <span class="vs__number">-10%</span>
               <p class="vs__sale-text">
-                Приведи друга —  оба получите 10% скидку!
+                <span class="vs__number vs__number--10">-10%</span>
+                Приведи друга — <br />
+                оба получите 10% скидку!
               </p>
             </div>
             <button class="button vs__sale-btn">Пригласить друга</button>
@@ -412,8 +453,10 @@
           <div class="vs__sale-item">
             <div class="vs__sale-top">
               <img src="images/bg/man2.svg" alt="man" />
-              <span class="vs__number">-5%</span>
-              <p class="vs__sale-text">Сделай репост —  получи 5% скидку!</p>
+              <p class="vs__sale-text">
+                <span class="vs__number vs__number--5">-5%</span>
+                Сделай репост — <br />получи 5% скидку!
+              </p>
             </div>
             <button class="button vs__sale-btn">Сделать репост</button>
           </div>
@@ -555,7 +598,7 @@
       </div>
       <section class="review">
         <h4 class="title title__h4 review__title">Отзывы</h4>
-        <div class="swiper">
+        <div class="swiper mySwiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -752,6 +795,7 @@
         </div>
       </footer>
     </div>
+
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>
