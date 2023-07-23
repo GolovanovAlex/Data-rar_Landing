@@ -60,6 +60,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     margin-bottom: 55px;
   }
   &__info {
@@ -407,6 +408,12 @@
   }
   &__title--orange {
     color: #fe840e;
+  }
+  &__title--pink-mid {
+    display: none;
+  }
+  &__title--orange-mid {
+    display: none;
   }
   &__box {
     display: flex;
@@ -816,8 +823,6 @@
   &__form-btn {
     background-color: #fe840e;
   }
-  &__wrap {
-  }
   &__social {
     display: flex;
     justify-content: space-between;
@@ -844,7 +849,6 @@
   padding-top: 50px;
   padding-bottom: 110px;
 }
-
 .review {
   padding-top: 116px;
   max-width: 1740px;
@@ -938,7 +942,6 @@
     letter-spacing: -0.34px;
     margin-bottom: 52px;
   }
-
   &__item {
     margin-bottom: 31px;
     max-width: 235px;
