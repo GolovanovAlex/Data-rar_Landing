@@ -475,8 +475,6 @@
     color: #000;
     margin-top: 116px;
   }
-  &__sale-item {
-  }
   &__sale-top {
     display: flex;
     justify-content: space-between;
@@ -515,46 +513,174 @@
 // ---- ---- curce ---- ---- //
 .curse {
   padding-top: 75px;
+  padding-bottom: 148px;
+  color: #000;
   &__title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: -0.48px;
+    margin-bottom: 14px;
   }
   &__title-text {
+    max-width: 525px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    margin-bottom: 75px;
   }
   &__wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   &__item {
+    max-width: 450px;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 37px 25px 36px 42px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   &__item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 25px;
+    margin-bottom: 80px;
+    span {
+      font-size: 120px;
+      font-weight: 900;
+      line-height: 120px;
+      letter-spacing: -2.4px;
+      color: #e3e3e3;
+      margin-top: -18px;
+      margin-left: -55px;
+    }
   }
   &__bottom {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: -0.34px;
   }
   &__item--finish {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color_white;
   }
   &__item-title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 146.28%;
+    letter-spacing: -0.6px;
   }
   &__item-text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: -0.24px;
   }
 }
 // ---- ---- about ---- ---- //
 .about {
+  padding-top: 67px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color_white;
+  margin-bottom: 384px;
   &__title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 146.28%;
+    letter-spacing: -0.6px;
+    margin-bottom: 60px;
   }
   &__title-text {
+    max-width: 675px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.34px;
+    margin-bottom: 16px;
   }
   &__text {
+    max-width: 690px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 146.28%;
+    letter-spacing: -0.24px;
+    margin-bottom: 90px;
+  }
+  &__teacher-box {
+    position: relative;
+    padding-bottom: 275px;
   }
   &__box {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
   }
   &__item {
+    width: 100%;
+    max-width: 453px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
   }
   &__item-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 129px 26px 40px;
   }
   &__name {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 109.71%;
+    letter-spacing: -0.5px;
   }
   &__lastname {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 109.71%;
+    letter-spacing: -0.3px;
   }
   &__item-bottom {
+    padding: 34px 23px 46px 62px;
   }
   &__item-text {
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: #000;
+    margin-bottom: 20px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: -18px;
+      width: 5px;
+      height: 5px;
+      background-color: #000;
+      border-radius: 50%;
+    }
   }
 }
 // ---- ---- swiper ---- ---- //
@@ -562,10 +688,25 @@
 // ---- ---- form ---- ---- //
 .form {
   &__box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
   }
   &__form {
+    padding: 0 78px;
   }
   &__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: -0.34px;
+    color: $color_white;
+    padding-top: 42px;
+    margin-bottom: 38px;
+  }
+  &__form-btn {
+    background-color: #fe840e;
   }
   &__wrap {
   }
