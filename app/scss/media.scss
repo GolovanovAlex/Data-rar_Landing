@@ -1,5 +1,4 @@
 // ---- ---- media ---- ---- //
-
 @media (max-width: 1450px) {
   .data__img-box {
     img {
@@ -51,7 +50,6 @@
     flex-direction: column;
   }
 }
-
 @media (max-width: 950px) {
   .system__box {
     flex-direction: column;
@@ -194,7 +192,6 @@
     margin: 0 auto;
   }
 }
-
 @media (max-width: 550px) {
   .footer__info-box {
     flex-direction: column-reverse;
@@ -265,7 +262,6 @@
     margin-bottom: 5px;
   }
 }
-
 @media (max-width: 450px) {
   .contact__bg {
     top: 100px;
