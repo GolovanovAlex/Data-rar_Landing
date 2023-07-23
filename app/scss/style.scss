@@ -711,13 +711,36 @@
   &__wrap {
   }
   &__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
   }
   &__link {
+    transition: all 0.3s ease;
+    path {
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      path {
+        fill: white;
+      }
+      circle {
+        fill: red;
+      }
+    }
   }
 }
 // ---- ---- review ---- ---- //
 .review {
+  padding-top: 116px;
   &__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: -0.34px;
+    text-align: center;
+    margin-bottom: 68px;
   }
   &__item {
   }
@@ -730,17 +753,43 @@
 }
 // ---- ---- contact ---- ---- //
 .contact {
+  color: $color_white;
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
   &__map {
+    max-width: 572px;
+    border-radius: 20px;
+    img {
+      width: 100%;
+      max-width: 572px;
+      border-radius: 20px;
+    }
   }
   &__info {
   }
   &__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: -0.34px;
+    margin-bottom: 52px;
   }
   &__list {
   }
   &__item {
+    margin-bottom: 31px;
+    max-width: 235px;
   }
   &__link {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.16px;
   }
 }
 // ---- ---- media ---- ---- //
