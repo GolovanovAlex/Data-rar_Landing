@@ -144,6 +144,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .info__text--big {
+    font-size: 47px;
+  }
 }
 @media (max-width: 600px) {
   .menu__list {
@@ -185,9 +188,10 @@
   }
   .review__item {
     width: 100%;
-    max-width: 300px;
+    max-width: 275px;
     height: 100%;
     padding: 71px 15px 70px;
+    margin: 0 auto;
   }
 }
 
